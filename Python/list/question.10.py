@@ -1,0 +1,33 @@
+elements = [23, 14, 56, 12, 19, 9, 15, 25, 31, 42, 43]
+i=0
+sum=0
+sum1=0
+sum3=0
+average=0
+average1=0
+count=0
+count1=0
+count3=0
+
+while i<len(elements):
+    if (elements[i])%2==0:
+        count=count+1
+        sum=sum+elements[i]
+        average=sum//count
+
+
+    else:
+        count1=count1+1
+        sum1=sum1+elements[i]
+        average1=sum1//count1
+    i=i+1
+    count3=count3+1
+print("average of even number",average)
+print("average1 of odd number",average1)
+print("count of even number",count)
+print("count1 of odd number",count1)
+print("total number of element",count3)
+print("sum of even number",sum)
+print("sum of odd number", sum1)
+print("total number of sum",sum3)
+
